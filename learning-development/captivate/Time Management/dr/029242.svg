@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1366" height="768" viewBox="0 0 1366 768">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_12409" data-name="Rectangle 12409" width="1366" height="768" fill="#eefcef"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_27525" data-name="Mask Group 27525" clip-path="url(#clip-path)">
+    <g id="Group_27948" data-name="Group 27948">
+      <rect id="Rectangle_12410" data-name="Rectangle 12410" width="1366" height="768" fill="#eefcef"/>
+      <g id="Group_407" data-name="Group 407" transform="translate(-0.001 654.305)">
+        <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="27.571" cy="27.844" rx="27.571" ry="27.844" transform="translate(43.465 0) rotate(42.843)" fill="#df0"/>
+        <path id="Path_1" data-name="Path 1" d="M.06,80.693S-2.71,50.169,29.27,14.82L27.989,0" transform="translate(8.531 33.001)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Path_2" data-name="Path 2" d="M14.438,11.4H0L9.418,0" transform="translate(37.802 36.422)" fill="none" stroke="#000" stroke-width="2"/>
+        <line id="Line_1" data-name="Line 1" y1="4.231" x2="13.966" transform="translate(13.725 81.999)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <ellipse id="Ellipse_2" data-name="Ellipse 2" cx="1.985" cy="2.004" rx="1.985" ry="2.004" transform="translate(34.535 30.997)" stroke="#707070" stroke-width="2"/>
+        <ellipse id="Ellipse_3" data-name="Ellipse 3" cx="1.985" cy="2.004" rx="1.985" ry="2.004" transform="translate(50.823 45.816)" stroke="#707070" stroke-width="2"/>
+        <path id="Path_3" data-name="Path 3" d="M3.97,2a2,2,0,0,1-1.985,2,2,2,0,0,1,0-4.01A2,2,0,0,1,3.97,2Z" transform="translate(45.607 34.417)" stroke="#707070" stroke-width="2"/>
+        <path id="Path_4" data-name="Path 4" d="M8.592,32.023S-4.4,23.119,1.568,0" transform="translate(0 81.672)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Group_431" data-name="Group 431" transform="translate(100.785 -734.353)">
+        <g id="Elipse_" data-name="Elipse " transform="translate(1195.969 660.713)" fill="none" stroke="#000" stroke-width="2">
+          <ellipse cx="104.831" cy="104.82" rx="104.831" ry="104.82" stroke="none"/>
+          <ellipse cx="104.831" cy="104.82" rx="103.831" ry="103.82" fill="none"/>
+        </g>
+        <g id="Elipse_2" data-name="Elipse " transform="translate(1181.215 647.257)" fill="none" stroke="#000" stroke-width="2">
+          <ellipse cx="104.831" cy="104.82" rx="104.831" ry="104.82" stroke="none"/>
+          <ellipse cx="104.831" cy="104.82" rx="103.831" ry="103.82" fill="none"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

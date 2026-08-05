@@ -1,0 +1,13 @@
+<svg id="Group_22337" data-name="Group 22337" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1366" height="768" viewBox="0 0 1366 768">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffd5c5"/>
+      <stop offset="1" stop-color="#ffba9f"/>
+    </radialGradient>
+  </defs>
+  <g id="Group_22166" data-name="Group 22166">
+    <g id="Group_23488" data-name="Group 23488">
+      <rect id="Rectangle_6185" data-name="Rectangle 6185" width="1366" height="768" fill="url(#radial-gradient)"/>
+    </g>
+  </g>
+</svg>
