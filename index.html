@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
 <meta charset="UTF-8">
@@ -9,38 +10,66 @@
 
 <style>
 
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
 body{
     font-family:Arial, Helvetica, sans-serif;
-    background:#f5f5f5;
-    margin:40px;
+    background:#f7f5f2;
     color:#333;
+    line-height:1.7;
 }
 
-h1{
-    margin-bottom:5px;
+header{
+    background:#ffffff;
+    padding:60px 20px;
+    text-align:center;
+    box-shadow:0 2px 12px rgba(0,0,0,.08);
 }
 
-h2{
-    margin-top:40px;
-    border-bottom:2px solid #ddd;
-    padding-bottom:8px;
+header h1{
+    font-size:42px;
+    color:#3a3153;
+    margin-bottom:10px;
+}
+
+header p{
+    max-width:900px;
+    margin:auto;
+    font-size:18px;
+    color:#555;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:40px auto;
 }
 
 .section{
     background:#fff;
-    padding:20px;
-    border-radius:10px;
-    margin-bottom:30px;
-    box-shadow:0 2px 8px rgba(0,0,0,.08);
+    border-radius:12px;
+    padding:30px;
+    margin-bottom:35px;
+    box-shadow:0 2px 10px rgba(0,0,0,.08);
+}
+
+.section h2{
+    color:#5a4678;
+    margin-bottom:20px;
+    border-bottom:2px solid #ececec;
+    padding-bottom:10px;
 }
 
 ul{
     list-style:none;
-    padding:0;
 }
 
 li{
-    margin:12px 0;
+    margin:15px 0;
 }
 
 a{
@@ -53,9 +82,32 @@ a:hover{
     text-decoration:underline;
 }
 
-iframe{
-    max-width:100%;
+.project{
+    padding:15px;
+    border:1px solid #ececec;
     border-radius:8px;
+    margin-bottom:15px;
+    transition:.2s;
+}
+
+.project:hover{
+    background:#faf8ff;
+}
+
+iframe{
+    margin-top:15px;
+    width:100%;
+    max-width:700px;
+    height:400px;
+    border:none;
+    border-radius:10px;
+}
+
+footer{
+    text-align:center;
+    padding:40px;
+    color:#666;
+    font-size:15px;
 }
 
 </style>
@@ -64,202 +116,248 @@ iframe{
 
 <body>
 
+<header>
+
 <h1>Rimjhim Bhatia</h1>
 
 <p>
-Welcome to my Instructional Design Portfolio. This portfolio showcases my work across learning analysis, instructional design, eLearning development, technical documentation, multimedia design, and process mapping.
+
+Welcome to my Instructional Design Portfolio.
+
+This portfolio showcases my work across instructional design, learning analysis, eLearning development, technical documentation, multimedia design, and process mapping. Every project reflects my passion for designing engaging, learner-centered learning experiences that combine creativity, clarity, and business impact.
+
 </p>
 
-
-<div class="section">
-
-<h2>Learning Analysis & Design</h2>
-
-<ul>
-
-<li>
-<a href="learning-analysis-design/needs-analysis/Learning%20Needs%20Analysis%20-%20Time%20Management%20Training%20Program.pdf" target="_blank">
-Learning Needs Analysis
-</a>
-</li>
-
-<li>
-<a href="learning-analysis-design/project-charter/Project%20Charter%20-%20Time%20Management.pdf" target="_blank">
-Project Charter
-</a>
-</li>
-
-<li>
-<a href="learning-analysis-design/learning-objectives/Learning%20Objectives.pdf" target="_blank">
-Learning Objectives
-</a>
-</li>
-
-<li>
-<a href="learning-analysis-design/storyboards/Storyboard%20-%20De-escalation%20Scenarios%20for%20Customer-Facing%20Teams.pptx" target="_blank">
-Storyboard
-</a>
-</li>
-
-<li>
-<a href="learning-analysis-design/assessment-plan/Assessment%20Plan.pdf" target="_blank">
-Assessment Plan
-</a>
-</li>
-
-</ul>
-
-</div>
+</header>
 
 
+<div class="container">
+
+
+<!-- ======================================= -->
+<!-- LEARNING DEVELOPMENT -->
+<!-- ======================================= -->
 
 <div class="section">
 
 <h2>Learning Development</h2>
 
-<ul>
+<div class="project">
 
-<li>
 <a href="learning-development/rise/how-to-create-a-strong-password-raw-r3VyyZY8/content/index.html" target="_blank">
-Rise 360 Course – How to Create a Strong Password
-</a>
-</li>
 
-<li>
-<a href="learning-development/captivate/Time%20Management/index.html" target="_blank">
-Adobe Captivate Course – Time Management
-</a>
-</li>
+🚀 Rise 360 Course – How to Create a Strong Password
 
-<li>
-<a href="learning-development/powerpoint/De-escalation%20Scenarios%20for%20Customer-Facing%20Teams.pptx" target="_blank">
-PowerPoint Presentation – De-escalation Scenarios for Customer-Facing Teams
 </a>
-</li>
-
-</ul>
 
 </div>
 
 
+<div class="project">
+
+<a href="learning-development/captivate/Time%20Management/index.html" target="_blank">
+
+🎓 Adobe Captivate Course – Time Management
+
+</a>
+
+</div>
+
+
+<div class="project">
+
+<a href="learning-development/powerpoint/De-escalation%20Scenarios%20for%20Customer-Facing%20Teams.pdf" target="_blank">
+
+📊 PowerPoint Presentation – De-escalation Scenarios for Customer-Facing Teams
+
+</a>
+
+</div>
+
+</div>
+
+
+<!-- ======================================= -->
+<!-- MULTIMEDIA -->
+<!-- ======================================= -->
 
 <div class="section">
 
 <h2>Multimedia & Motion Design</h2>
 
-<ul>
+<div class="project">
 
-<li>
-
-<strong>AI Video</strong>
-
-<br><br>
+<h3>AI Video</h3>
 
 <iframe
-width="560"
-height="315"
 src="https://www.youtube.com/embed/lE48Z2oQJiQ"
-title="AI Video"
-frameborder="0"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen>
 </iframe>
-
-</li>
-
-<li style="margin-top:35px;">
-
-<strong>Interview Video</strong>
-
-<br><br>
-
-<iframe
-width="560"
-height="315"
-src="https://www.youtube.com/embed/2ypYG8nZ4CM"
-title="Interview Video"
-frameborder="0"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen>
-</iframe>
-
-</li>
-
-</ul>
 
 </div>
 
 
+<div class="project">
+
+<h3>Interview Video</h3>
+
+<iframe
+src="https://www.youtube.com/embed/2ypYG8nZ4CM"
+allowfullscreen>
+</iframe>
+
+</div>
+
+</div>
+
+
+
+<!-- ======================================= -->
+<!-- LEARNING ANALYSIS -->
+<!-- ======================================= -->
+
+<div class="section">
+
+<h2>Learning Analysis & Design</h2>
+
+<div class="project">
+
+<a href="learning-analysis-design/needs-analysis/Learning%20Needs%20Analysis%20-%20Time%20Management%20Training%20Program.pdf" target="_blank">
+
+Learning Needs Analysis
+
+</a>
+
+</div>
+
+<div class="project">
+
+<a href="learning-analysis-design/project-charter/Project%20Charter%20-%20Time%20Management.pdf" target="_blank">
+
+Project Charter
+
+</a>
+
+</div>
+
+<div class="project">
+
+<a href="learning-analysis-design/learning-objectives/Learning%20Objectives.pdf" target="_blank">
+
+Learning Objectives
+
+</a>
+
+</div>
+
+<div class="project">
+
+<a href="learning-analysis-design/storyboards/Storyboard%20-%20De-escalation%20Scenarios%20for%20Customer-Facing%20Teams.pdf" target="_blank">
+
+Storyboard – De-escalation Scenarios for Customer-Facing Teams
+
+</a>
+
+</div>
+
+<div class="project">
+
+<a href="learning-analysis-design/assessment-plan/Assessment%20Plan.pdf" target="_blank">
+
+Assessment Plan
+
+</a>
+
+</div>
+
+</div>
+
+
+
+<!-- ======================================= -->
+<!-- TECHNICAL DOCUMENTATION -->
+<!-- ======================================= -->
 
 <div class="section">
 
 <h2>Technical Documentation</h2>
 
-<h3>Standard Operating Procedures (SOPs)</h3>
+<h3>Standard Operating Procedures</h3>
 
-<ul>
-
-<li>
+<div class="project">
 
 <a href="technical-documentation/sop/SOP%20-%20Data%20Mining%20Process.pdf" target="_blank">
+
 SOP – Data Mining Process
+
 </a>
 
-</li>
+</div>
 
-<li>
+<div class="project">
 
 <a href="technical-documentation/sop/SOP%20-%20Updating%20Customer%20Master%20Records%20in%20the%20Database.pdf" target="_blank">
+
 SOP – Updating Customer Master Records in the Database
+
 </a>
 
-</li>
+</div>
 
-</ul>
+<h3 style="margin-top:30px;">Job Aid</h3>
 
-<h3>Job Aid</h3>
-
-<ul>
-
-<li>
+<div class="project">
 
 <a href="technical-documentation/job-aids/Job%20Aid%20-%20Technical%20Writing%20Quick%20Reference%20Guide.pdf" target="_blank">
+
 Technical Writing Quick Reference Guide
+
 </a>
 
-</li>
-
-</ul>
+</div>
 
 </div>
 
 
+
+<!-- ======================================= -->
+<!-- PROCESS MAPPING -->
+<!-- ======================================= -->
 
 <div class="section">
 
 <h2>Process Mapping</h2>
 
-<ul>
-
-<li>
+<div class="project">
 
 <a href="process-mapping/workflow-maps/Customer%20Complaint%20Resolution%20Process%20Workflow.pdf" target="_blank">
+
 Customer Complaint Resolution Workflow
+
 </a>
-
-</li>
-
-<li>
-
-<a href="process-mapping/infographics/Customer%20Service%20Excellence%20Infographics.pdf" target="_blank">
-Customer Service Excellence Infographic
-</a>
-
-</li>
-
-</ul>
 
 </div>
+
+<div class="project">
+
+<a href="process-mapping/infographics/Customer%20Service%20Excellence%20Infographics.pdf" target="_blank">
+
+Customer Service Excellence Infographic
+
+</a>
+
+</div>
+
+</div>
+
+
+</div>
+
+<footer>
+
+© 2026 Rimjhim Bhatia | Instructional Design Portfolio
+
+</footer>
 
 </body>
 
